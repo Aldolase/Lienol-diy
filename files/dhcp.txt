@@ -1,0 +1,76 @@
+
+config host
+	option name 'DESKTOP-LML'
+	option dns '1'
+	option mac 'd0:50:99:85:55:4d'
+	option ip '192.168.10.10'
+	option hostid '10'
+
+config host
+	option name 'WIN-NAS'
+	option dns '1'
+	option mac 'f4:b5:20:1c:cd:2d'
+	option ip '192.168.10.11'
+	option hostid '11'
+
+config host
+	option name 'k2T-SF-19A0'
+	option dns '1'
+	option mac '98:bb:99:44:19:a0'
+	option ip '192.168.10.12'
+
+config host
+	option name 'K2T-KT-42E9'
+	option dns '1'
+	option mac '98:bb:99:41:42:e9'
+	option ip '192.168.10.13'
+
+config host
+	option name 'SonyTV-WLAN'
+	option dns '1'
+	option mac '28:3a:4d:41:4b:95'
+	option ip '192.168.10.14'
+
+config host
+	option name 'lml-vm'
+	option dns '1'
+	option mac '00:15:5d:0a:0b:0c'
+	option ip '192.168.10.15'
+	option hostid '15'
+
+config host
+	option name 'T5Max'
+	option dns '1'
+	option mac 'd4:d2:d6:ae:9f:b1'
+	option ip '192.168.10.48'
+
+config domain
+	option name 'k2t'
+	option ip '192.168.10.12'
+
+config domain
+	option name 'tr.aldol.site'
+	option ip '212.103.62.140'
+
+config domain
+	option name 'WIN-NAS'
+	option ip '192.168.10.11'
+	
+config domain
+	option name 'mb3admin.com'
+	option ip '192.168.10.2'
+	
+config host
+	option name 'Debian'
+	option dns '1'
+	option mac '00:15:5d:0a:0b:0e'
+	option ip '192.168.10.2'
+	option hostid '2'
+
+config host
+	option name 'CoreELEC'
+	option dns '1'
+	option ip '192.168.10.19'
+	option mac 'fa:62:5e:a3:c9:cf'
+
+
